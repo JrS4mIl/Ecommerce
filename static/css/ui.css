@@ -6,7 +6,10 @@ html {
   font-family: "Inter", sans-serif;
   font-size: 15px;
 }
-
+.fadeOut {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
 /* ========================
 INCLUDE STYLES AND COMPONENTS
 ===================== */
