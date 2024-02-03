@@ -93,13 +93,6 @@ def login(request):
                             for item in cart_item:
                                 item.user = user
                                 item.save()
-
-
-
-
-
-
-
             except:
                 pass
 
