@@ -56,6 +56,8 @@ class Account(AbstractUser):
         return self.is_admin
     def has_module_perms(self, app_label):
         return True
+    def full_name(self):
+        return f'{self.first_name} {self.last_name}'
 
 
 
