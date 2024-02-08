@@ -11,5 +11,7 @@ urlpatterns=[
     path('resetPassword/', resetPassword, name='resetPassword'),
     path('my-orders/', my_orders, name='my_orders'),
     path('edit_profile/', edit_profile, name='edit_profile'),
+    path('change_password/', change_password, name='change_password'),
+    path('order_detail/<int:order_id>/', order_detail, name='order_detail'),
 
 ]
