@@ -196,7 +196,7 @@ def resetpassword_validate(request, uidb64, token):
         messages.error(request, 'This link has been expired')
         return redirect('login')
 
-@login_required(login_url='login')
+
 def resetPassword(request):
     if request.method == 'POST':
         password = request.POST['password']

@@ -36,7 +36,8 @@ class Product(models.Model):
         return count
 variation_category_choice=(
     ('color','color'),
-    ('size','size')
+    ('size','size'),
+    ('Flavor','Flavor')
 )
 class VariationManager(models.Manager):
     def colors(self):
